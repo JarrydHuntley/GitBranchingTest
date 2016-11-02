@@ -29,5 +29,7 @@ namespace MVC_GitTest_Fall2016.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<MVC_GitTest_Fall2016.Models.Model> Models { get; set; }
     }
 }
