@@ -7,7 +7,10 @@ namespace MVC_GitTest_Fall2016.Models
 {
     public class Model
     {
+        //adding some comments
         public int ID { get; set; }
         public string name { get; set; }
+
+        //adding more comments
     }
 }
